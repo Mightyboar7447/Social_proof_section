@@ -1,0 +1,172 @@
+
+
+
+content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    width: 22%;
+    margin-left: 14%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+}
+
+.summary {
+    font-size: 15px;
+    line-height: 1.2em;
+    width: 25%;
+    margin-left: 14%;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+
+}
+
+.box { 
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: right;
+    align-content: center;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(300, 43%, 22%);
+    margin-left: 50%;
+    margin-top: -14%;
+    width: 340px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+
+#second_box {
+    margin-top: 1%;
+    margin-left: 54%;
+}
+
+#third_box {
+    margin-top: 1%;
+    margin-left: 58%;
+}
+
+
+.reviews_big {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.recenzja {
+    width: 20%;
+    height: 20%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+#irene {
+    margin-top: 1%;
+}
+
+#anne {
+    margin-top: 2%;
+}
+
+h5 {
+    margin-top: -15%;
+    margin-left: 30%;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+h6 {
+    margin-top: -6%;
+    margin-left: 30%;
+    color: hsl(333, 80%, 67%);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+p {
+    color: white;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+img {
+    align-content: flex-start;
+    border-radius: 50px;
+    height: 50px;
+    padding: 0px;
+}
+
+
+@media all and (max-width: 768px) {
+    content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 700;
+        width: 60%;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .summary {
+        width: 80%;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 10px;
+    }
+
+    .gwiazdki {
+        margin-bottom: 10px;
+    }
+
+    .reviews_big {
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .recenzja {
+        width: 80%;
+        text-align: left;
+    }
+
+
+}
